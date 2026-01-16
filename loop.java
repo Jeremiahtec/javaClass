@@ -2,7 +2,11 @@ public class loop {
     public static void main(String[] args) {
         int i = 0;
         while (i <= 10) {
-            System.out.println(i);
+            if(i < 10){
+                System.out.println(i);
+            }else {
+                System.out.print("Yay! We have reached 10!");
+            }
             i++;
         }
     }

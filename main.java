@@ -11,5 +11,7 @@ public class main {
         int depositAmount3 = amount.nextInt();
         int totalAmount = depositAmount + depositAmount2 + depositAmount3;
         System.out.println("The total amount you have deposited is: " + totalAmount);
+
+        amount.close();
     }
 }

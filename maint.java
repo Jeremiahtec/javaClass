@@ -12,5 +12,6 @@ public class maint {
         } else {
             System.out.println("You are not richer than the rich man.");
         }
+        userInput.close();
     }
 }
