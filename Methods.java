@@ -16,5 +16,6 @@ public class Methods {
         int b = no.nextInt();
 
         System.out.println(addNumber(a, b));
+        no.close();
     }
 }
