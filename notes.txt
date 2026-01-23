@@ -1,2 +1,16 @@
 // why we have methods
-// calculator
+
+// TYpes of datatypes
+Primitive and Cognitive
+
+//Types of loops
+For loop - for(initialize; Condition; increment/decrement)
+
+While loop
+
+
+
+
+
+
+fizz buzz and 

@@ -1,7 +1,6 @@
-
 import java.util.Scanner;
 
-public class maint {
+public class richMan {
     public static void main(String[] args) {
         int richManAmount = 1000000;
         Scanner userInput = new Scanner(System.in);
