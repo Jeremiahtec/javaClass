@@ -6,6 +6,7 @@ public class topchecker {
         System.out.println("Enter the the amount of candidates");
         int cands = uInput.nextInt();
         int highCand = 0;
+        int candI = 0;
         // int noOfCands = cands;
         int i = 1;
         for(i = 1; i <= cands; i++){
@@ -13,9 +14,10 @@ public class topchecker {
             int candScore = uInput.nextInt();
             if (candScore > highCand){
                 highCand = candScore;
+                candI = i;
             }
         }
-        System.out.println("Student" + (i - 1) + " is the highest with the total of " + highCand);
+        System.out.println("Candidate" + candI + " is the highest with the total of " + highCand);
         uInput.close();
         
     }

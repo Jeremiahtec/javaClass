@@ -18,4 +18,9 @@ public class Methods {
         System.out.println(addNumber(a, b));
         no.close();
     }
+
+    // public char[] addNumber(int i, int j, int k) {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'addNumber'");
+    // }
 }
